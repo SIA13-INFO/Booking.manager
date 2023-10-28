@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${pageTitle}">Rezervări Hotel</title>
+</head>
+<body>
+<h1>Bun venit la Booking Manager</h1>
+<p>Rezervări online pentru hoteluri rapide și ușoare.</p>
+<p>Introduceți destinația și datele dvs. pentru a găsi cele mai bune oferte de cazare.</p>
+<form>
+    <label for="destination">Destinație:</label>
+    <input type="text" id="destination" name="destination" required>
+    <label for="check-in">Data check-in:</label>
+    <input type="date" id="check-in" name="check-in" required>
+    <label for="check-out">Data check-out:</label>
+    <input type="date" id="check-out" name="check-out" required>
+    <button type="submit">Caută</button>
+</form>
+</body>
+</html>
